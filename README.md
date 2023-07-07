@@ -18,8 +18,7 @@ pnpm install
 
 Fill up .env
 
-If you use planetscale, delete the options after the db name and change it to `?ssl={}`
-Very obscure problem
+P.S. Delete the options after the db name and change it to `?ssl={}` in `DATABASE_URL` if you encounter connection errors
 
 ```env
 DATABASE_URL='mysql://username:passowrd@0.0.0.0/db' #PlanetScale
